@@ -16,6 +16,8 @@ import org.springframework.web.servlet.ModelAndView;
 /**
  * <p>Logout class.</p>
  *
+ *
+ *
  * @author rlawson
  * @version $Id: $Id
  */
