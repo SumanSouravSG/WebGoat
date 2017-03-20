@@ -51,7 +51,7 @@
                 <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='POST' style="width: 400px;">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Username</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name='username' autocomplete="off">
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name='username'>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
