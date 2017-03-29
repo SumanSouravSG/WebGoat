@@ -48,14 +48,14 @@
                     <div class="msg">${msg}</div>
                 </c:if>
                 <br/><br/>
-                <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='POST' style="width: 400px;">
+                <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='POST' style="width: 400px;" autocomplete= "off">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Username</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name='username'>
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name='password' autocomplete="off">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name='password'>
                     </div>
 
 
