@@ -48,7 +48,7 @@
                     <div class="msg">${msg}</div>
                 </c:if>
                 <br/><br/>
-                <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='POST' style="width: 400px;" autocomplete="on">
+                <form role="form" name='loginForm' action="<c:url value='j_spring_security_check' />" method='POST' style="width: 400px;" autocomplete="off">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Username</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name='username'>
